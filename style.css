@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Mountains+of+Christmas");
+.snow {
+  position: absolute;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+}
+
+.trees {
+  display: grid;
+  background: url(bosque.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Asegúrate de que el contenedor tenga una altura definida */
+  align-content: end; /* Ajusta esta propiedad */
+}
+
+.merry {
+  color: #fab8efd7;
+  font-family: "Mountains of Christmas";
+  text-align: center;
+  grid-row: 1;
+  grid-column: 1/4;
+  align-self: center;
+  justify-self: center;
+  font-size: 6rem;
+}
+
+.cinnamoroll {
+  grid-column: 3;
+  grid-row: 5; /* Ajusta este valor según tu diseño */
+  align-self: end;
+  justify-self: start;
+  position: relative;
+}
+
+.melody {
+  align-self: end;
+  justify-self: end;
+  grid-column: 1;
+  grid-row: 5; /* Ajusta este valor según tu diseño */
+}
